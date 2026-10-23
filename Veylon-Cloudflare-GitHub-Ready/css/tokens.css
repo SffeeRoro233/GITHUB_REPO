@@ -1,0 +1,116 @@
+/* ==========================================================================
+   VEYLON DESIGN TOKENS — OBSIDIAN NOCTURNE & HARVEST AMBER
+   ========================================================================== */
+:root {
+  /* Layered Dark Surfaces */
+  --bg-abyss: #08090d;
+  --bg-ground: #0c0e14;
+  --bg-rail: #101219;
+  --bg-surface: #141722;
+  --bg-elevated: #191d2b;
+  --bg-hover: rgba(255, 255, 255, 0.055);
+  --bg-harvest-tint: #1b1627;
+
+  /* Precision Hairline Borders */
+  --border-faint: rgba(255, 255, 255, 0.06);
+  --border-subtle: rgba(255, 255, 255, 0.095);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --border-amber: rgba(245, 158, 11, 0.30);
+  --border-amber-bright: rgba(251, 191, 36, 0.52);
+
+  /* Signature Warm Amber & Gold Scale */
+  --amber-100: #fef3c7;
+  --amber-200: #fde68a;
+  --amber-300: #fcd34d;
+  --amber-400: #fbbf24;
+  --amber-500: #f59e0b;
+  --orange-500: #f97316;
+  --orange-600: #ea580c;
+
+  /* Semantic Accents */
+  --emerald-400: #34d399;
+  --emerald-soft: rgba(16, 185, 129, 0.12);
+  --indigo-400: #818cf8;
+
+  /* Optical High-Contrast Typography */
+  --ink-primary: #f5f6fa;
+  --ink-secondary: #b9c0d4;
+  --ink-muted: #7f889d;
+  --ink-dark: #0b0c10;
+
+  /* Fluid Type Scale */
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "Cascadia Code", Menlo, Consolas, monospace;
+
+  /* Radii & Elevation */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+  --radius-2xl: 28px;
+
+  --shadow-card: 0 20px 50px -20px rgba(0, 0, 0, 0.72), inset 0 1px 0 rgba(255, 255, 255, 0.07);
+  --shadow-window: 0 36px 90px -20px rgba(0, 0, 0, 0.88), 0 0 0 1px rgba(245, 158, 11, 0.22), inset 0 1px 0 rgba(253, 230, 138, 0.14);
+  --shadow-cta: 0 14px 36px -8px rgba(245, 158, 11, 0.52), inset 0 1px 0 rgba(255, 255, 255, 0.48);
+
+  /* Layout Rhythm */
+  --container-max: 1180px;
+  --nav-height: 70px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+  background-color: var(--bg-abyss);
+  color-scheme: dark;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  color: var(--ink-primary);
+  background-color: var(--bg-abyss);
+  background-image:
+    radial-gradient(68% 42% at 76% 4%, rgba(234, 88, 12, 0.14) 0%, rgba(56, 29, 84, 0.34) 46%, transparent 82%),
+    radial-gradient(50% 35% at 14% 18%, rgba(245, 158, 11, 0.06) 0%, transparent 75%);
+  line-height: 1.55;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(245, 158, 11, 0.28);
+  color: var(--amber-100);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

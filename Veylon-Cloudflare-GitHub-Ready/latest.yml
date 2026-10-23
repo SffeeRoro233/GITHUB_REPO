@@ -1,0 +1,14 @@
+version: 2.9.3
+files:
+  - url: Veylon-Setup.exe
+    sha512: 0cKZ0skdjVeiZWc/ygs7VyJD/456PjVnfpwZvpnmV2dsutT5Rl34/W3r2Kid4jyn+RSLKWY8w1xFiQAPqAA81Q==
+    size: 83615996
+path: Veylon-Setup.exe
+sha512: 0cKZ0skdjVeiZWc/ygs7VyJD/456PjVnfpwZvpnmV2dsutT5Rl34/W3r2Kid4jyn+RSLKWY8w1xFiQAPqAA81Q==
+size: 83615996
+releaseDate: "2026-10-23T16:30:46.451Z"
+releaseNotes: |
+  - Original Lumi non-animal Lantern-Sprite mascot, GPU motion system & real startup tracker
+  - Co-op Community Beacon Goals, Suggestion Board voting & Creation Showcase Gallery
+  - Full Role Hierarchy ordering, Category Overwrites, Default Join Role & Permission Inspector
+  - Fixed conversation drag upload bug, full user unblocking sync, real Email engine & Marketing Studio

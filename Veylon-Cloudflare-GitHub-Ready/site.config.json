@@ -1,0 +1,16 @@
+{
+  "app": "Veylon",
+  "version": "2.9.3",
+  "canonicalOrigin": "https://veylon.fr",
+  "seasonalEvent": "Haunted Harvest 2026",
+  "installerFileName": "Veylon-Setup.exe",
+  "sizeBytes": 83615996,
+  "sha512": "0cKZ0skdjVeiZWc/ygs7VyJD/456PjVnfpwZvpnmV2dsutT5Rl34/W3r2Kid4jyn+RSLKWY8w1xFiQAPqAA81Q==",
+  "sha512Hex": "d1c299d2c91d8d57a265673fca0b3b572243ff8e7a3e35677e9c19be99e657676cbad4f9465df8fd6debd8a89de23ca7f9148b29663cc35c4589000fa8003cd5",
+  "sha256": "b3b2a8e78d7378d17df219a493ae6784a260eb5b00e462f88676ca522323067a",
+  "releaseDate": "2026-10-23T16:30:46.960Z",
+  "githubRepo": "",
+  "cdnDownloadUrl": "",
+  "webAppOrigin": "",
+  "registryDiscoveryUrl": "https://ntfy.sh/veylon-official-central-hub-v282/json?poll=1"
+}

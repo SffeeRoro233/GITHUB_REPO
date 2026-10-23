@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <radialGradient id="glowA" cx="78%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#EA580C" stop-opacity="0.30"/>
+      <stop offset="50%" stop-color="#2B1842" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#0B0C11" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="50%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="35%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="60%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0B0C11"/>
+  <rect width="1200" height="630" fill="url(#glowA)"/>
+  <circle cx="1010" cy="144" r="88" fill="#F59E0B" fill-opacity="0.10"/>
+  <circle cx="1010" cy="144" r="48" fill="url(#moon)"/>
+  <rect x="84" y="84" width="92" height="92" rx="24" fill="#1B1626" stroke="#F59E0B" stroke-opacity="0.55" stroke-width="2.5"/>
+  <path d="M104 107H117L130 148L143 107H156L136 160H124L104 107Z" fill="url(#goldText)"/>
+  <text x="84" y="268" fill="#FFFFFF" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="68" font-weight="800" letter-spacing="-1.5">Veylon</text>
+  <text x="84" y="338" fill="url(#goldText)" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.8">Voice, Spaces &amp; Instant Chat — Built for Speed.</text>
+  <text x="84" y="404" fill="#B8C0D2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="22" font-weight="500">Zero-port HTTPS 443 auto-discovery · 48 kHz Opus voice · Windows 10/11 x64</text>
+  <rect x="84" y="468" width="424" height="68" rx="18" fill="#F59E0B"/>
+  <text x="296" y="511" text-anchor="middle" fill="#0B0C11" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="22" font-weight="800">Download for Windows (x64)</text>
+  <text x="540" y="510" fill="#FCD34D" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="21" font-weight="700">veylon.fr · Release v2.8.5</text>
+</svg>
